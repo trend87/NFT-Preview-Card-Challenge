@@ -1,14 +1,37 @@
 body{
     background-color:  hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
 }
 .container{
     background-color: hsl(216, 50%, 16%);
     margin: 0 auto;
-    width: 400px;
-    height: 700px;
+    width: 350px;
+    height: 550px;
 }
 .image-container{
     margin: 0 auto;
+    padding-top: 20px;
     width: 300px;
-    height: 250px;
+    height: 300px;
+   
+}
+.image{
+    
+    border-radius: 10px;
+}
+.text-container{
+    margin: 0 auto;
+    width: 300px;
+    color: hsl(0, 0%, 100%);
+}
+.text-container p{
+    font-size: 18px;
+    font-weight: 100;
+}
+.primary-span{
+    display: block;
+    color: hsl(178, 100%, 50%);
+}
+.secondary-span{
+    float: right;
 }
