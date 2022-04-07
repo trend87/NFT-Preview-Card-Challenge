@@ -12,6 +12,7 @@ body{
     
 }
 .image-container{
+    position: relative;
     margin: 0 auto;
     padding-top: 20px;
     width: 300px;
@@ -20,7 +21,31 @@ body{
 }
 .image{
     border-radius: 10px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
 }
+.icon-view{
+    position: absolute;
+    top: 47%;
+    left: 43%;
+    text-align: center;
+    opacity: 0;
+}
+.image-container:hover .image {
+    display: block;
+    background-color: red;
+    cursor: grab;
+    opacity: 0.3;
+    
+  }
+  
+  .image-container:hover .icon-view {
+      
+    opacity: 1;
+  }
 .text-container{
     margin: 0 auto;
     width: 300px;
