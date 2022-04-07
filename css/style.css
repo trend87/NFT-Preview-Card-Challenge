@@ -9,17 +9,18 @@ body{
     margin: 30px auto;
     width: 350px;
     height: 580px;
-    
+    padding-top: 20px;
 }
 .image-container{
     position: relative;
     margin: 0 auto;
-    padding-top: 20px;
     width: 300px;
     height: 300px;
+    border-radius: 10px;
    
 }
 .image{
+    
     border-radius: 10px;
     opacity: 1;
     display: block;
@@ -32,20 +33,20 @@ body{
     top: 47%;
     left: 43%;
     text-align: center;
-    opacity: 0;
+    visibility: hidden;
 }
 .image-container:hover .image {
-    display: block;
-    background-color: red;
+    
     cursor: grab;
     opacity: 0.3;
     
   }
   
-  .image-container:hover .icon-view {
-      
-    opacity: 1;
+  .image-container:hover {
+    background-color: hsl(178, 100%, 50%);
+    
   }
+  
 .text-container{
     margin: 0 auto;
     width: 300px;
