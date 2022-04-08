@@ -42,9 +42,13 @@ body{
     
   }
   
-  .image-container:hover {
-    background-color: hsl(178, 100%, 50%);
+  .image-container:hover .icon-view {
     
+    visibility: inherit;
+    
+  }
+  .image-container:hover{
+    background-color: hsl(178, 100%, 50%);
   }
   
 .text-container{
